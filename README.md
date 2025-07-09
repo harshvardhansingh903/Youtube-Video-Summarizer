@@ -11,8 +11,13 @@ A powerful tool to transcribe and summarize any YouTube video using AI. Supports
 ## Installation
 1. Clone this repository:
    ```sh
+<<<<<<< HEAD
    git clone https://github.com/harshvardhansingh903/Youtube-Video-Summarizer.git
    cd Youtube-Video-Summarizer
+=======
+   git clone <your-repo-url>
+   cd Youtube-Transcript-Summarizer-main
+>>>>>>> 338d642 (Update README and LICENSE for GitHub repository)
    ```
 2. Install dependencies:
    ```sh
