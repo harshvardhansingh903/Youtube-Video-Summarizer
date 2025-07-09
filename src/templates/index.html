@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Transcript Summarizer</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">YouTube Transcript Summarizer</h1>
+        <form action="/summarize" method="post" class="mt-4">
+            <div class="form-group">
+                <label for="youtube-url">Enter YouTube Video URL:</label>
+                <input type="url" class="form-control" id="youtube-url" name="youtube_url" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Summarize</button>
+        </form>
+    </div>
+</body>
+</html>
